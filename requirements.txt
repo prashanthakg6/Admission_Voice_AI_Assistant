@@ -1,0 +1,26 @@
+# LiveKit core
+livekit-agents
+livekit-api
+livekit-plugins-silero
+livekit-plugins-noise-cancellation
+python-dotenv
+
+# STT
+vosk
+numpy
+soundfile
+
+# LLM (Ollama REST)
+aiohttp
+
+# TTS
+pyttsx3
+
+# Analytics & utils
+pytz
+pandas
+
+# Optional but recommended
+rich
+pydantic
+# uvloop for linux/macOS for better performance
