@@ -1,0 +1,13 @@
+# brain/intents.py
+
+INTENTS = {
+    "COURSE_INFO",
+    "ELIGIBILITY_QUERY",
+    "FEES_QUERY",
+    "DATES_QUERY",
+    "DOCUMENTS_QUERY",
+    "PROCESS_QUERY",
+    "CONTACT_HUMAN",
+    "GENERAL_QUERY",
+    "UNKNOWN"
+}
