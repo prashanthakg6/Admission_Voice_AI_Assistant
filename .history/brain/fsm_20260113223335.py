@@ -1,0 +1,31 @@
+# brain/fsm.py
+
+FSM_TRANSITIONS = {
+    "GREETING": {
+        "COURSE_INFO": "COURSE_QUERY",
+        "ELIGIBILITY_QUERY": "ELIGIBILITY",
+        "FEES_QUERY": "FEES",
+        "DATES_QUERY": "DEADLINES",
+        "DOCUMENTS_QUERY": "DOCUMENTS",
+        "PROCESS_QUERY": "PROCESS",
+        "CONTACT_HUMAN": "ESCALATION",
+        "UNKNOWN": "CLARIFICATION",
+    },
+
+    "COURSE_QUERY": {
+        "FEES_QUERY": "FEES",
+        "ELIGIBILITY_QUERY": "ELIGIBILITY",
+        "DATES_QUERY": "DEADLINES",
+        "DOCUMENTS_QUERY": "DOCUMENTS",
+        "PROCESS_QUERY": "PROCESS",
+        "CONTACT_HUMAN": "ESCALATION",
+    },
+
+    "CLARIFICATION": {
+        "COURSE_INFO": "COURSE_QUERY",
+        "FEES_QUERY": "FEES",
+        "ELIGIBILITY_QUERY": "ELIGIBILITY",
+        "CONTACT_HUMAN": "ESCALATION",
+        "UNKNOWN": "ESCALATION",
+    }
+}
