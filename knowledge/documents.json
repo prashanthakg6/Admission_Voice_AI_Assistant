@@ -1,0 +1,28 @@
+{
+  "BTech": [
+    "10th standard marksheet",
+    "12th standard marksheet",
+    "Transfer Certificate",
+    "Migration Certificate (if applicable)",
+    "Entrance exam scorecard",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+  "MBA": [
+    "10th and 12th marksheets",
+    "Undergraduate degree certificate",
+    "All semester UG marksheets",
+    "Entrance exam scorecard",
+    "Work experience certificate (if applicable)",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+  "MCA": [
+    "10th and 12th marksheets",
+    "BCA degree certificate",
+    "All semester BCA marksheets",
+    "Entrance exam admit card",
+    "Aadhaar card",
+    "Passport size photographs"
+  ]
+}

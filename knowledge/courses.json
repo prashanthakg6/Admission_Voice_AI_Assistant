@@ -1,0 +1,39 @@
+{
+  "BTech": {
+    "degree": "Undergraduate",
+    "duration_years": 4,
+    "mode": "Full-time",
+    "specializations": [
+      "Computer Science and Engineering",
+      "Artificial Intelligence and Data Science",
+      "Electronics and Communication Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering"
+    ],
+    "intake_capacity": 480
+  },
+  "MBA": {
+    "degree": "Postgraduate",
+    "duration_years": 2,
+    "mode": "Full-time",
+    "specializations": [
+      "Finance",
+      "Marketing",
+      "Human Resources",
+      "Business Analytics",
+      "Operations Management"
+    ],
+    "intake_capacity": 180
+  },
+  "MCA": {
+    "degree": "Postgraduate",
+    "duration_years": 2,
+    "mode": "Full-time",
+    "specializations": [
+      "Software Engineering",
+      "Cloud Computing",
+      "Data Science"
+    ],
+    "intake_capacity": 120
+  }
+}

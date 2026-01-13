@@ -1,0 +1,35 @@
+{
+  "BTech": {
+    "tuition_fee_per_year": 120000,
+    "hostel_fee_per_year": 80000,
+    "mess_fee_per_year": 45000,
+    "other_fees": {
+      "admission_fee": 10000,
+      "exam_fee": 5000,
+      "library_fee": 3000
+    },
+    "currency": "INR"
+  },
+  "MBA": {
+    "tuition_fee_per_year": 250000,
+    "hostel_fee_per_year": 90000,
+    "mess_fee_per_year": 50000,
+    "other_fees": {
+      "admission_fee": 15000,
+      "exam_fee": 7000,
+      "library_fee": 5000
+    },
+    "currency": "INR"
+  },
+  "MCA": {
+    "tuition_fee_per_year": 180000,
+    "hostel_fee_per_year": 85000,
+    "mess_fee_per_year": 48000,
+    "other_fees": {
+      "admission_fee": 12000,
+      "exam_fee": 6000,
+      "library_fee": 4000
+    },
+    "currency": "INR"
+  }
+}

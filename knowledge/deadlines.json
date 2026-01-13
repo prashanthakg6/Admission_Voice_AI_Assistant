@@ -1,0 +1,20 @@
+{
+  "BTech": {
+    "application_start": "2026-04-01",
+    "application_end": "2026-06-30",
+    "counselling_start": "2026-07-10",
+    "classes_commence": "2026-08-01"
+  },
+  "MBA": {
+    "application_start": "2026-03-15",
+    "application_end": "2026-05-31",
+    "interview_dates": "2026-06-10 to 2026-06-25",
+    "classes_commence": "2026-07-15"
+  },
+  "MCA": {
+    "application_start": "2026-04-10",
+    "application_end": "2026-06-20",
+    "entrance_test_date": "2026-07-05",
+    "classes_commence": "2026-08-05"
+  }
+}

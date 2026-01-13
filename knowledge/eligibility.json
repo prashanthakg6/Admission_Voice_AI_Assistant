@@ -1,0 +1,37 @@
+{
+  "BTech": {
+    "minimum_percentage": 60,
+    "required_subjects": [
+      "Physics",
+      "Chemistry",
+      "Mathematics"
+    ],
+    "accepted_exams": [
+      "JEE Main",
+      "State CET"
+    ],
+    "lateral_entry": {
+      "allowed": true,
+      "minimum_diploma_percentage": 65
+    }
+  },
+  "MBA": {
+    "minimum_percentage": 50,
+    "required_degree": "Any recognized undergraduate degree",
+    "accepted_exams": [
+      "CAT",
+      "MAT",
+      "CMAT",
+      "XAT"
+    ],
+    "work_experience_required": false
+  },
+  "MCA": {
+    "minimum_percentage": 55,
+    "required_degree": "BCA or equivalent degree",
+    "accepted_exams": [
+      "University Entrance Test"
+    ],
+    "maths_requirement": "Mathematics in 10+2 or graduation"
+  }
+}
