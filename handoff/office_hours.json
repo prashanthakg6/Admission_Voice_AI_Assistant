@@ -1,0 +1,9 @@
+{
+  "timezone": "Asia/Kolkata",
+  "working_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "working_hours": {
+    "start": "09:00",
+    "end": "17:00"
+  },
+  "fallback_message": "Our admissions team is currently unavailable. Please call during office hours."
+}
