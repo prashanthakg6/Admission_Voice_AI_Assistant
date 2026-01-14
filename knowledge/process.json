@@ -1,10 +1,229 @@
 {
-  "general_process": [
-    "Fill the online application form on the college website",
-    "Upload required academic and identity documents",
-    "Pay the application and registration fees",
-    "Appear for entrance test or interview if applicable",
-    "Attend counselling or document verification",
-    "Confirm admission by paying the first semester fees"
+  "general_admission_process": [
+    {
+      "step": 1,
+      "title": "Online Application Registration",
+      "description": "Candidate registers on the official college admission portal using a valid email ID and mobile number."
+    },
+    {
+      "step": 2,
+      "title": "Application Form Filling",
+      "description": "Candidate fills personal details, academic history, course preferences, and uploads required documents."
+    },
+    {
+      "step": 3,
+      "title": "Application Fee Payment",
+      "description": "Candidate pays the application fee online using UPI, debit card, credit card, or net banking."
+    },
+    {
+      "step": 4,
+      "title": "Application Submission",
+      "description": "Candidate reviews and submits the completed application form."
+    }
+  ],
+
+  "entrance_exam_process": [
+    {
+      "step": 1,
+      "title": "Entrance Exam Registration",
+      "description": "Candidate registers for the relevant entrance examination as per course requirements."
+    },
+    {
+      "step": 2,
+      "title": "Admit Card Download",
+      "description": "Candidate downloads the entrance exam admit card from the official website."
+    },
+    {
+      "step": 3,
+      "title": "Entrance Examination",
+      "description": "Candidate appears for the entrance exam on the scheduled date and time."
+    },
+    {
+      "step": 4,
+      "title": "Result Declaration",
+      "description": "Entrance exam results are announced and made available to candidates."
+    }
+  ],
+
+  "merit_based_admission_process": [
+    {
+      "step": 1,
+      "title": "Merit List Preparation",
+      "description": "Merit list is prepared based on qualifying examination marks."
+    },
+    {
+      "step": 2,
+      "title": "Merit List Publication",
+      "description": "Merit list is published on the official college website."
+    },
+    {
+      "step": 3,
+      "title": "Seat Allotment",
+      "description": "Seats are allotted based on merit rank and course availability."
+    }
+  ],
+
+  "counselling_process": [
+    {
+      "step": 1,
+      "title": "Counselling Registration",
+      "description": "Eligible candidates register for counselling through the admission portal."
+    },
+    {
+      "step": 2,
+      "title": "Choice Filling",
+      "description": "Candidates select preferred courses and specializations."
+    },
+    {
+      "step": 3,
+      "title": "Seat Allotment",
+      "description": "Seats are allotted based on rank, preferences, and seat availability."
+    },
+    {
+      "step": 4,
+      "title": "Seat Confirmation",
+      "description": "Candidate confirms the allotted seat by paying the seat confirmation fee."
+    }
+  ],
+
+  "document_verification_process": [
+    {
+      "step": 1,
+      "title": "Document Upload",
+      "description": "Candidate uploads scanned copies of required documents on the portal."
+    },
+    {
+      "step": 2,
+      "title": "Physical Verification",
+      "description": "Candidate reports to the campus or designated center for physical document verification."
+    },
+    {
+      "step": 3,
+      "title": "Verification Approval",
+      "description": "Documents are verified and approved by the admission office."
+    }
+  ],
+
+  "fee_payment_process": [
+    {
+      "step": 1,
+      "title": "Fee Structure Review",
+      "description": "Candidate reviews the detailed fee structure for the selected course."
+    },
+    {
+      "step": 2,
+      "title": "Installment Selection",
+      "description": "Candidate selects available installment options, if applicable."
+    },
+    {
+      "step": 3,
+      "title": "Fee Payment",
+      "description": "Candidate pays the tuition and associated fees online."
+    },
+    {
+      "step": 4,
+      "title": "Payment Confirmation",
+      "description": "Fee payment receipt is generated and sent to the registered email ID."
+    }
+  ],
+
+  "hostel_admission_process": [
+    {
+      "step": 1,
+      "title": "Hostel Application",
+      "description": "Candidate applies for hostel accommodation through the hostel portal."
+    },
+    {
+      "step": 2,
+      "title": "Room Allotment",
+      "description": "Hostel rooms are allotted based on availability and candidate preference."
+    },
+    {
+      "step": 3,
+      "title": "Hostel Fee Payment",
+      "description": "Candidate pays hostel and mess fees."
+    }
+  ],
+
+  "scholarship_process": [
+    {
+      "step": 1,
+      "title": "Scholarship Application",
+      "description": "Eligible candidates apply for institutional or government scholarships."
+    },
+    {
+      "step": 2,
+      "title": "Document Submission",
+      "description": "Candidate submits income and category certificates."
+    },
+    {
+      "step": 3,
+      "title": "Scholarship Approval",
+      "description": "Scholarship committee verifies and approves eligible applications."
+    }
+  ],
+
+  "phd_admission_process": [
+    {
+      "step": 1,
+      "title": "Research Proposal Submission",
+      "description": "Candidate submits a detailed research proposal in the chosen domain."
+    },
+    {
+      "step": 2,
+      "title": "Research Aptitude Test",
+      "description": "Candidate appears for a written research aptitude test."
+    },
+    {
+      "step": 3,
+      "title": "Personal Interview",
+      "description": "Candidate attends an interview with the research committee."
+    },
+    {
+      "step": 4,
+      "title": "Final Selection",
+      "description": "Final admission decision is communicated to selected candidates."
+    }
+  ],
+
+  "international_student_process": [
+    {
+      "step": 1,
+      "title": "International Application Submission",
+      "description": "International candidates submit applications through the international admissions portal."
+    },
+    {
+      "step": 2,
+      "title": "Offer Letter Issuance",
+      "description": "Offer letter is issued upon eligibility verification."
+    },
+    {
+      "step": 3,
+      "title": "Visa Processing",
+      "description": "Candidate applies for a student visa using the offer letter."
+    },
+    {
+      "step": 4,
+      "title": "Arrival and Registration",
+      "description": "Candidate reports to the campus and completes registration formalities."
+    }
+  ],
+
+  "post_admission_process": [
+    {
+      "step": 1,
+      "title": "Student ID Generation",
+      "description": "Student ID and institutional email ID are generated."
+    },
+    {
+      "step": 2,
+      "title": "Orientation Program",
+      "description": "Student attends orientation and induction program."
+    },
+    {
+      "step": 3,
+      "title": "Commencement of Classes",
+      "description": "Academic sessions begin as per the academic calendar."
+    }
   ]
 }

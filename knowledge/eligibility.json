@@ -1,37 +1,105 @@
 {
   "BTech": {
     "minimum_percentage": 60,
-    "required_subjects": [
-      "Physics",
-      "Chemistry",
-      "Mathematics"
-    ],
-    "accepted_exams": [
-      "JEE Main",
-      "State CET"
-    ],
+    "required_subjects": ["Physics", "Chemistry", "Mathematics"],
+    "accepted_exams": ["JEE Main", "State CET", "University Entrance Test"],
+    "age_limit": "No age limit",
     "lateral_entry": {
       "allowed": true,
-      "minimum_diploma_percentage": 65
+      "minimum_diploma_percentage": 65,
+      "eligible_branches": [
+        "Mechanical",
+        "Electrical",
+        "Civil",
+        "Computer Science",
+        "Electronics"
+      ]
     }
   },
+
+  "BSc": {
+    "minimum_percentage": 50,
+    "required_subjects": ["Mathematics"],
+    "stream_specific_criteria": {
+      "Computer Science": ["Mathematics"],
+      "Data Science": ["Mathematics", "Statistics"],
+      "Physics": ["Physics", "Mathematics"],
+      "Statistics": ["Mathematics"]
+    },
+    "accepted_exams": ["University Entrance Test"],
+    "age_limit": "No age limit"
+  },
+
+  "BCA": {
+    "minimum_percentage": 50,
+    "required_subjects": ["Mathematics"],
+    "accepted_exams": ["University Entrance Test"],
+    "bridge_course_required": false
+  },
+
+  "BCom": {
+    "minimum_percentage": 45,
+    "required_subjects": ["Commerce", "Accountancy"],
+    "accepted_exams": ["Merit Based"],
+    "maths_preference": true
+  },
+
+  "BA": {
+    "minimum_percentage": 45,
+    "required_subjects": [],
+    "accepted_exams": ["Merit Based"],
+    "language_requirement": "English studied in 10+2"
+  },
+
   "MBA": {
     "minimum_percentage": 50,
     "required_degree": "Any recognized undergraduate degree",
-    "accepted_exams": [
-      "CAT",
-      "MAT",
-      "CMAT",
-      "XAT"
-    ],
-    "work_experience_required": false
+    "accepted_exams": ["CAT", "MAT", "CMAT", "XAT", "GMAT"],
+    "group_discussion": true,
+    "personal_interview": true,
+    "work_experience_preferred": true
   },
+
+  "MTech": {
+    "minimum_percentage": 55,
+    "required_degree": "BTech or BE in relevant specialization",
+    "accepted_exams": ["GATE", "University Entrance Test"],
+    "specialization_mapping": {
+      "Computer Science and Engineering": ["Computer Science", "IT"],
+      "Artificial Intelligence": ["CSE", "AI", "Data Science"],
+      "VLSI Design": ["Electronics", "Electrical"],
+      "Structural Engineering": ["Civil Engineering"],
+      "Thermal Engineering": ["Mechanical Engineering"]
+    }
+  },
+
+  "MSc": {
+    "minimum_percentage": 55,
+    "required_degree": "Relevant undergraduate degree",
+    "specialization_requirements": {
+      "Computer Science": ["Computer Science", "IT"],
+      "Data Science": ["Mathematics", "Statistics"],
+      "Physics": ["Physics"],
+      "Mathematics": ["Mathematics"],
+      "Statistics": ["Mathematics", "Statistics"]
+    },
+    "accepted_exams": ["University Entrance Test"]
+  },
+
   "MCA": {
     "minimum_percentage": 55,
     "required_degree": "BCA or equivalent degree",
-    "accepted_exams": [
-      "University Entrance Test"
-    ],
-    "maths_requirement": "Mathematics in 10+2 or graduation"
+    "maths_requirement": "Mathematics in 10+2 or graduation",
+    "accepted_exams": ["University Entrance Test"],
+    "bridge_course_required": false
+  },
+
+  "PhD": {
+    "minimum_percentage": 60,
+    "required_degree": "Postgraduate degree in relevant discipline",
+    "accepted_exams": ["University Research Aptitude Test", "NET", "GATE"],
+    "interview_required": true,
+    "research_proposal_required": true,
+    "work_experience_preferred": true
   }
 }

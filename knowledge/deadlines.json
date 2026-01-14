@@ -1,20 +1,191 @@
 {
   "BTech": {
-    "application_start": "2026-04-01",
-    "application_end": "2026-06-30",
-    "counselling_start": "2026-07-10",
+    "application": {
+      "start": "2026-03-15",
+      "end": "2026-06-30",
+      "late_application_end": "2026-07-10",
+      "late_fee": 2000
+    },
+    "entrance_exam": {
+      "exam_name": "JEE Main / State CET",
+      "exam_window": "2026-06-01 to 2026-06-15",
+      "result_declaration": "2026-06-25"
+    },
+    "counselling": {
+      "round_1": "2026-07-05",
+      "round_2": "2026-07-15",
+      "round_3": "2026-07-25",
+      "spot_round": "2026-08-05"
+    },
+    "admission_confirmation_deadline": "2026-08-10",
+    "orientation_program": "2026-08-15",
+    "classes_commence": "2026-08-20"
+  },
+
+  "BSc": {
+    "application": {
+      "start": "2026-04-01",
+      "end": "2026-06-15",
+      "late_application_end": "2026-06-25",
+      "late_fee": 1500
+    },
+    "merit_list": {
+      "first_list": "2026-06-30",
+      "second_list": "2026-07-10",
+      "final_list": "2026-07-20"
+    },
+    "document_verification": "2026-07-25",
+    "orientation_program": "2026-07-30",
+    "classes_commence": "2026-08-05"
+  },
+
+  "BCA": {
+    "application": {
+      "start": "2026-04-05",
+      "end": "2026-06-20",
+      "late_application_end": "2026-06-30",
+      "late_fee": 1500
+    },
+    "entrance_exam": {
+      "exam_name": "University Entrance Test",
+      "exam_date": "2026-07-05",
+      "result_declaration": "2026-07-12"
+    },
+    "counselling": {
+      "round_1": "2026-07-18",
+      "round_2": "2026-07-28"
+    },
+    "classes_commence": "2026-08-08"
+  },
+
+  "BCom": {
+    "application": {
+      "start": "2026-04-10",
+      "end": "2026-06-10"
+    },
+    "merit_list": {
+      "first_list": "2026-06-20",
+      "second_list": "2026-07-01"
+    },
+    "classes_commence": "2026-07-25"
+  },
+
+  "BA": {
+    "application": {
+      "start": "2026-04-10",
+      "end": "2026-06-05"
+    },
+    "merit_list": {
+      "first_list": "2026-06-15",
+      "second_list": "2026-06-25"
+    },
+    "classes_commence": "2026-07-20"
+  },
+
+  "MBA": {
+    "application": {
+      "start": "2026-02-15",
+      "end": "2026-05-31",
+      "late_application_end": "2026-06-10",
+      "late_fee": 3000
+    },
+    "entrance_exam": {
+      "exam_names": ["CAT", "MAT", "CMAT", "XAT", "GMAT"],
+      "score_submission_deadline": "2026-06-05"
+    },
+    "shortlisting": {
+      "announcement": "2026-06-12"
+    },
+    "group_discussion_and_interview": {
+      "window": "2026-06-15 to 2026-06-30"
+    },
+    "final_selection_list": "2026-07-05",
+    "fee_payment_deadline": "2026-07-15",
+    "orientation_program": "2026-07-20",
+    "classes_commence": "2026-07-25"
+  },
+
+  "MTech": {
+    "application": {
+      "start": "2026-03-01",
+      "end": "2026-05-20"
+    },
+    "entrance_exam": {
+      "exam_name": "GATE / University Test",
+      "exam_date": "2026-06-10",
+      "result_declaration": "2026-06-20"
+    },
+    "counselling": {
+      "round_1": "2026-06-30",
+      "round_2": "2026-07-10"
+    },
     "classes_commence": "2026-08-01"
   },
-  "MBA": {
-    "application_start": "2026-03-15",
-    "application_end": "2026-05-31",
-    "interview_dates": "2026-06-10 to 2026-06-25",
-    "classes_commence": "2026-07-15"
+
+  "MSc": {
+    "application": {
+      "start": "2026-03-20",
+      "end": "2026-05-30"
+    },
+    "entrance_exam": {
+      "exam_name": "University Entrance Test",
+      "exam_date": "2026-06-12",
+      "result_declaration": "2026-06-18"
+    },
+    "counselling": {
+      "round_1": "2026-06-25",
+      "round_2": "2026-07-05"
+    },
+    "classes_commence": "2026-07-30"
   },
+
   "MCA": {
-    "application_start": "2026-04-10",
-    "application_end": "2026-06-20",
-    "entrance_test_date": "2026-07-05",
+    "application": {
+      "start": "2026-03-25",
+      "end": "2026-06-10",
+      "late_application_end": "2026-06-20",
+      "late_fee": 2000
+    },
+    "entrance_exam": {
+      "exam_name": "University Entrance Test",
+      "exam_date": "2026-06-25",
+      "result_declaration": "2026-07-02"
+    },
+    "counselling": {
+      "round_1": "2026-07-08",
+      "round_2": "2026-07-18"
+    },
     "classes_commence": "2026-08-05"
+  },
+
+  "PhD": {
+    "application": {
+      "start": "2026-01-15",
+      "end": "2026-03-15"
+    },
+    "research_aptitude_test": {
+      "exam_date": "2026-04-05",
+      "result_declaration": "2026-04-12"
+    },
+    "interview": {
+      "window": "2026-04-20 to 2026-04-30"
+    },
+    "final_selection_list": "2026-05-10",
+    "registration_deadline": "2026-05-25",
+    "coursework_commence": "2026-06-10"
+  },
+
+  "International_Students": {
+    "application": {
+      "start": "2025-12-01",
+      "end": "2026-04-30"
+    },
+    "offer_letter": {
+      "issuance_window": "2026-05-05 to 2026-05-20"
+    },
+    "visa_process": {
+      "recommended_start": "2026-05-25"
+    },
+    "classes_commence": "2026-08-20"
   }
 }

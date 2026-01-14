@@ -1,28 +1,167 @@
 {
+  "Common_Documents": [
+    "Passport size photographs",
+    "Aadhaar card or Government ID",
+    "Birth certificate",
+    "Student signature specimen"
+  ],
+
   "BTech": [
     "10th standard marksheet",
     "12th standard marksheet",
+    "12th standard pass certificate",
     "Transfer Certificate",
     "Migration Certificate (if applicable)",
-    "Entrance exam scorecard",
-    "Aadhaar card",
-    "Passport size photographs"
-  ],
-  "MBA": [
-    "10th and 12th marksheets",
-    "Undergraduate degree certificate",
-    "All semester UG marksheets",
-    "Entrance exam scorecard",
-    "Work experience certificate (if applicable)",
-    "Aadhaar card",
-    "Passport size photographs"
-  ],
-  "MCA": [
-    "10th and 12th marksheets",
-    "BCA degree certificate",
-    "All semester BCA marksheets",
+    "Entrance exam scorecard (JEE Main / CET)",
     "Entrance exam admit card",
     "Aadhaar card",
+    "Passport size photographs",
+    "Medical fitness certificate",
+    "Character certificate from last institution"
+  ],
+
+  "BSc": [
+    "10th standard marksheet",
+    "12th standard marksheet",
+    "12th standard pass certificate",
+    "Transfer Certificate",
+    "Migration Certificate (if applicable)",
+    "Aadhaar card",
+    "Passport size photographs",
+    "Character certificate"
+  ],
+
+  "BCA": [
+    "10th standard marksheet",
+    "12th standard marksheet",
+    "12th standard pass certificate",
+    "Mathematics subject proof (if applicable)",
+    "Transfer Certificate",
+    "Migration Certificate",
+    "Entrance test admit card",
+    "Entrance test scorecard",
+    "Aadhaar card",
     "Passport size photographs"
+  ],
+
+  "BCom": [
+    "10th standard marksheet",
+    "12th standard marksheet",
+    "12th standard pass certificate",
+    "Commerce subject proof",
+    "Transfer Certificate",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+
+  "BA": [
+    "10th standard marksheet",
+    "12th standard marksheet",
+    "12th standard pass certificate",
+    "Transfer Certificate",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+
+  "MBA": [
+    "10th and 12th standard marksheets",
+    "Undergraduate degree certificate",
+    "All semester undergraduate marksheets",
+    "Entrance exam scorecard (CAT / MAT / CMAT / XAT / GMAT)",
+    "Entrance exam admit card",
+    "Work experience certificate (if applicable)",
+    "Statement of Purpose (SOP)",
+    "Resume / CV",
+    "Aadhaar card",
+    "Passport size photographs",
+    "Medical fitness certificate"
+  ],
+
+  "MTech": [
+    "10th and 12th standard marksheets",
+    "Undergraduate degree certificate (BTech / BE)",
+    "All semester undergraduate marksheets",
+    "GATE scorecard or entrance test scorecard",
+    "Transfer Certificate",
+    "Migration Certificate",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+
+  "MSc": [
+    "10th and 12th standard marksheets",
+    "Undergraduate degree certificate",
+    "All semester undergraduate marksheets",
+    "Entrance exam admit card",
+    "Entrance exam scorecard",
+    "Transfer Certificate",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+
+  "MCA": [
+    "10th and 12th standard marksheets",
+    "BCA degree certificate",
+    "All semester BCA marksheets",
+    "Mathematics eligibility proof",
+    "Entrance exam admit card",
+    "Entrance exam scorecard",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+
+  "PhD": [
+    "10th, 12th, undergraduate, and postgraduate marksheets",
+    "Postgraduate degree certificate",
+    "Research proposal",
+    "Statement of Purpose",
+    "Curriculum Vitae (CV)",
+    "Experience certificate (if applicable)",
+    "Research aptitude test scorecard",
+    "Interview call letter",
+    "No Objection Certificate (for employed candidates)",
+    "Aadhaar card",
+    "Passport size photographs"
+  ],
+
+  "Lateral_Entry": [
+    "Diploma marksheets (all semesters)",
+    "Diploma provisional certificate",
+    "Migration Certificate",
+    "Transfer Certificate"
+  ],
+
+  "International_Students": [
+    "Valid passport",
+    "Student visa",
+    "Passport size photographs",
+    "Academic transcripts (translated to English)",
+    "English proficiency test score (IELTS / TOEFL, if applicable)",
+    "Equivalence certificate from AIU",
+    "Financial support / bank statement",
+    "Medical insurance documents"
+  ],
+
+  "Category_Certificates": [
+    "Caste certificate (SC / ST / OBC)",
+    "Income certificate",
+    "EWS certificate (if applicable)",
+    "Disability certificate (PWD candidates)"
+  ],
+
+  "Hostel_Admission": [
+    "Hostel application form",
+    "Medical fitness certificate",
+    "Parent consent letter",
+    "Emergency contact details",
+    "Student ID proof"
+  ],
+
+  "Scholarship_Documents": [
+    "Scholarship application form",
+    "Income certificate",
+    "Caste certificate (if applicable)",
+    "Bank account details",
+    "Aadhaar linked bank proof"
   ]
 }

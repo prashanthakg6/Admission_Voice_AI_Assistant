@@ -1,35 +1,181 @@
 {
   "BTech": {
     "tuition_fee_per_year": 120000,
+    "specialization_fee_variation": {
+      "Computer Science and Engineering": 140000,
+      "Artificial Intelligence and Data Science": 150000,
+      "Artificial Intelligence and Machine Learning": 150000,
+      "Data Science": 145000,
+      "Cyber Security": 145000,
+      "Electronics and Communication Engineering": 130000,
+      "Mechanical Engineering": 120000,
+      "Civil Engineering": 110000
+    },
     "hostel_fee_per_year": 80000,
     "mess_fee_per_year": 45000,
+    "transport_fee_per_year": 20000,
     "other_fees": {
       "admission_fee": 10000,
       "exam_fee": 5000,
-      "library_fee": 3000
+      "library_fee": 3000,
+      "laboratory_fee": 7000,
+      "student_activity_fee": 2000
+    },
+    "payment_modes": ["Online", "Demand Draft", "Bank Transfer"],
+    "scholarships_available": true,
+    "currency": "INR"
+  },
+
+  "BSc": {
+    "tuition_fee_per_year": 60000,
+    "specialization_fee_variation": {
+      "Computer Science": 75000,
+      "Data Science": 80000,
+      "Artificial Intelligence": 85000,
+      "Mathematics": 60000,
+      "Physics": 65000,
+      "Statistics": 70000
+    },
+    "hostel_fee_per_year": 70000,
+    "mess_fee_per_year": 42000,
+    "other_fees": {
+      "admission_fee": 7000,
+      "exam_fee": 4000,
+      "library_fee": 2500
+    },
+    "scholarships_available": true,
+    "currency": "INR"
+  },
+
+  "BCA": {
+    "tuition_fee_per_year": 85000,
+    "specialization_fee_variation": {
+      "Cloud Computing": 95000,
+      "Cyber Security": 100000,
+      "Data Analytics": 95000
+    },
+    "hostel_fee_per_year": 75000,
+    "mess_fee_per_year": 43000,
+    "other_fees": {
+      "admission_fee": 8000,
+      "exam_fee": 4500,
+      "lab_fee": 5000
+    },
+    "payment_modes": ["Online", "Bank Transfer"],
+    "currency": "INR"
+  },
+
+  "BCom": {
+    "tuition_fee_per_year": 50000,
+    "specialization_fee_variation": {
+      "Accounting and Finance": 65000,
+      "Banking and Insurance": 60000,
+      "Business Analytics": 70000
+    },
+    "other_fees": {
+      "admission_fee": 6000,
+      "exam_fee": 4000
     },
     "currency": "INR"
   },
+
+  "BA": {
+    "tuition_fee_per_year": 45000,
+    "specialization_fee_variation": {
+      "Economics": 55000,
+      "Psychology": 60000,
+      "English Literature": 50000
+    },
+    "other_fees": {
+      "admission_fee": 5000,
+      "exam_fee": 3500
+    },
+    "currency": "INR"
+  },
+
   "MBA": {
     "tuition_fee_per_year": 250000,
+    "specialization_fee_variation": {
+      "Business Analytics": 300000,
+      "Finance": 280000,
+      "Marketing": 270000,
+      "International Business": 290000
+    },
     "hostel_fee_per_year": 90000,
     "mess_fee_per_year": 50000,
     "other_fees": {
       "admission_fee": 15000,
       "exam_fee": 7000,
-      "library_fee": 5000
+      "library_fee": 5000,
+      "placement_training_fee": 12000
     },
+    "installment_options": {
+      "allowed": true,
+      "installments": 4
+    },
+    "payment_modes": ["Online", "Demand Draft"],
+    "scholarships_available": true,
     "currency": "INR"
   },
-  "MCA": {
+
+  "MTech": {
     "tuition_fee_per_year": 180000,
+    "specialization_fee_variation": {
+      "Artificial Intelligence": 220000,
+      "Data Science": 210000,
+      "VLSI Design": 230000
+    },
     "hostel_fee_per_year": 85000,
     "mess_fee_per_year": 48000,
     "other_fees": {
       "admission_fee": 12000,
       "exam_fee": 6000,
-      "library_fee": 4000
+      "lab_fee": 8000
     },
+    "currency": "INR"
+  },
+
+  "MSc": {
+    "tuition_fee_per_year": 120000,
+    "specialization_fee_variation": {
+      "Data Science": 150000,
+      "Artificial Intelligence": 160000,
+      "Physics": 130000,
+      "Statistics": 140000
+    },
+    "other_fees": {
+      "admission_fee": 10000,
+      "exam_fee": 5000
+    },
+    "currency": "INR"
+  },
+
+  "MCA": {
+    "tuition_fee_per_year": 180000,
+    "specialization_fee_variation": {
+      "Artificial Intelligence": 210000,
+      "Data Science": 200000,
+      "Cyber Security": 205000
+    },
+    "hostel_fee_per_year": 85000,
+    "mess_fee_per_year": 48000,
+    "other_fees": {
+      "admission_fee": 12000,
+      "exam_fee": 6000,
+      "lab_fee": 7000
+    },
+    "currency": "INR"
+  },
+
+  "PhD": {
+    "registration_fee": 30000,
+    "tuition_fee_per_year": 60000,
+    "part_time_fee_per_year": 40000,
+    "other_fees": {
+      "research_facility_fee": 15000,
+      "library_fee": 8000
+    },
+    "stipend_available": true,
     "currency": "INR"
   }
 }

@@ -6,12 +6,77 @@
     "specializations": [
       "Computer Science and Engineering",
       "Artificial Intelligence and Data Science",
+      "Artificial Intelligence and Machine Learning",
+      "Data Science",
+      "Cyber Security",
+      "Internet of Things",
       "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
       "Mechanical Engineering",
-      "Civil Engineering"
+      "Civil Engineering",
+      "Information Technology"
     ],
-    "intake_capacity": 480
+    "intake_capacity": 720
   },
+
+  "BSc": {
+    "degree": "Undergraduate",
+    "duration_years": 3,
+    "mode": "Full-time",
+    "specializations": [
+      "Computer Science",
+      "Data Science",
+      "Information Technology",
+      "Artificial Intelligence",
+      "Mathematics",
+      "Physics",
+      "Statistics",
+      "Electronics"
+    ],
+    "intake_capacity": 360
+  },
+
+  "BCA": {
+    "degree": "Undergraduate",
+    "duration_years": 3,
+    "mode": "Full-time",
+    "specializations": [
+      "Computer Applications",
+      "Cloud Computing",
+      "Cyber Security",
+      "Data Analytics",
+      "Mobile Application Development"
+    ],
+    "intake_capacity": 240
+  },
+
+  "BCom": {
+    "degree": "Undergraduate",
+    "duration_years": 3,
+    "mode": "Full-time",
+    "specializations": [
+      "Accounting and Finance",
+      "Banking and Insurance",
+      "Taxation",
+      "Business Analytics"
+    ],
+    "intake_capacity": 300
+  },
+
+  "BA": {
+    "degree": "Undergraduate",
+    "duration_years": 3,
+    "mode": "Full-time",
+    "specializations": [
+      "Economics",
+      "English Literature",
+      "Psychology",
+      "Sociology",
+      "Political Science"
+    ],
+    "intake_capacity": 180
+  },
+
   "MBA": {
     "degree": "Postgraduate",
     "duration_years": 2,
@@ -21,10 +86,44 @@
       "Marketing",
       "Human Resources",
       "Business Analytics",
-      "Operations Management"
+      "Operations Management",
+      "International Business",
+      "Information Systems"
+    ],
+    "intake_capacity": 240
+  },
+
+  "MTech": {
+    "degree": "Postgraduate",
+    "duration_years": 2,
+    "mode": "Full-time",
+    "specializations": [
+      "Computer Science and Engineering",
+      "Artificial Intelligence",
+      "Data Science",
+      "VLSI Design",
+      "Structural Engineering",
+      "Thermal Engineering",
+      "Power Systems"
     ],
     "intake_capacity": 180
   },
+
+  "MSc": {
+    "degree": "Postgraduate",
+    "duration_years": 2,
+    "mode": "Full-time",
+    "specializations": [
+      "Computer Science",
+      "Data Science",
+      "Mathematics",
+      "Physics",
+      "Statistics",
+      "Artificial Intelligence"
+    ],
+    "intake_capacity": 200
+  },
+
   "MCA": {
     "degree": "Postgraduate",
     "duration_years": 2,
@@ -32,8 +131,28 @@
     "specializations": [
       "Software Engineering",
       "Cloud Computing",
-      "Data Science"
+      "Artificial Intelligence",
+      "Data Science",
+      "Cyber Security"
     ],
-    "intake_capacity": 120
+    "intake_capacity": 150
+  },
+
+  "PhD": {
+    "degree": "Doctoral",
+    "duration_years": "3–5",
+    "mode": "Full-time / Part-time",
+    "specializations": [
+      "Computer Science",
+      "Artificial Intelligence",
+      "Data Science",
+      "Electronics",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Management Studies",
+      "Mathematics",
+      "Physics"
+    ],
+    "intake_capacity": 90
   }
 }
